@@ -60,7 +60,7 @@ public class DB{
 			try {
 			  //  ct = DriverManager.getConnection(url+dbName+"create=true");
 				pstmt = ct.prepareStatement(sql);
-				//pstmt.setString(1, persion);
+				
 				rs = pstmt.executeQuery();
 				//DriverManager.getConnection("jdbc:derby:E://Program Files//db-derby-10.10.2.0-bin//bin//tongXLDB;shutdown=true;");
 				if(rs.next()){
